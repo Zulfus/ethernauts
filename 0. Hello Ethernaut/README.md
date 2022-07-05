@@ -22,7 +22,7 @@ This level is a gentle introduction to how to play the game, you can pretty much
 - 'await contract.method7123949()'
 - 'await contract.password()' to obtain the password (ethernaut0)
 - 'await contract.autheticate('ethernaut0')' and confirm the transaction to submit the password to your deployed instance contract
-- 'contract' and expand the object to view available functions. Notice the functions we called above were visible here all along. There are some additional function including getCleared(). If you had called this function initially it would have returned false, but now that we have authenticated it should return true.
+- 'contract' and expand the object to view available functions. Notice the functions we called above were visible here all along. There are some additional functions including getCleared(). If you had called this function initially it would have returned false, but now that we have authenticated it should return true.
 - 'await contract.getCleared()' to confirm the authenticate call was successful and the value has been set to true. 
 - Click 'Submit instance' and confirm the transaction
 - Level complete!
